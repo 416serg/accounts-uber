@@ -22,8 +22,8 @@ Package.onUse(function(api) {
   api.addFiles("uber.js");
 });
 
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('accounts-uber');
-  api.addFiles('accounts-uber-tests.js');
-});
+// Package.onTest(function(api) {
+//   api.use('tinytest');
+//   api.use('accounts-uber');
+//   api.addFiles('accounts-uber-tests.js');
+// });
